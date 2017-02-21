@@ -1,27 +1,30 @@
 /* Main class */
 .navbar-wagon {
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: white;
+  background: linear-gradient(-225deg, rgba(255,168,145,0.4) 0%, rgba(255,168,145,0.4) 50%);
   transition: all 0.3s ease;
   display: flex;
-  height: 70px;
+  height: 200px;
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
+  color: white;
+  position: absolute;
+  top: 0px;
+  width: 100%
 }
 
-/* Optional class to fix the navbar on top */
-.navbar-wagon-fixed {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  z-index: 1;
-  width: 100%;
-}
+
 
 /* Navbar logo */
-.navbar-wagon-brand img {
-  width: 50px;
+.logo-name {
+  font-family: 'Satisfy', cursive;
+  font-size: 72px;
+  color: white;
+  padding-top: 3px;
+  font-weight: bold;
+  &:hover {
+      text-decoration: none;
+  }
 }
 
 /* Navbar right section (with form, links, button) */
@@ -34,35 +37,37 @@
 /* Navbar item */
 .navbar-wagon-item {
   flex: 0 1 auto;
-  cursor: pointer;
   padding: 0 20px;
+  a {
+    font-weight: bold;
+      &:hover {
+      color: $pink;
+      text-decoration: none;
+    }
+  }
 }
 
 /* Navbar standard link */
 .navbar-wagon-link {
-  color: #616668;
+  color: white;
   font-size: 14px;
-}
-.navbar-wagon-link:hover {
-  color: #da552f;
-  text-decoration: none;
+  &:hover {
+    color: $pink;
+    text-decoration: none;
+  }
 }
 
 /* Navbar right button */
 .navbar-wagon-button {
   margin-left: 10px;
   padding: 0 20px;
-  border-radius: 20em;
   line-height: 40px;
-  background-color: #D23333;
   color: white;
-  font-size: 14px;
-  border: 2px solid #D23333;
-}
-.navbar-wagon-button:hover {
-  color: white;
-  background: #D23333;
-  border-color: #ac2626;
+  font-size: 26px;
+  &:hover {
+    color: $pink;
+    text-decoration: none;
+  }
 }
 
 /* Navbar search form */
@@ -88,7 +93,7 @@
   transition: all 0.15s ease;
   line-height: 40px;
   font-weight: lighter;
-  color: #666666;
+  color: white;
   border: 1px solid #E6E6E6;
   border-radius: 5px;
   padding: 0 10px;
@@ -108,7 +113,7 @@
 .navbar-wagon-dropdown-menu li > a {
   transition: color 0.3s ease;
   font-weight: lighter !important;
-  color: #999999 !important;
+  color: white !important;
   font-size: 15px !important;
   line-height: 22px !important;
   padding: 10px 20px;

@@ -1,2 +1,51 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div id="top">
+  <%= render "banner" %>
+</div>
+
+<div class="wraper-home recettes" id="recettes">
+  <h1 class="index-title text-center">Nos recettes</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="card">
+         <%= link_to "", "#", class: "card-link" %>
+          <div class="card-category">
+            <p>Bondi BeacH</p>
+            </div>
+          <div class="card-description">
+            <h2>Supers ingrédients</h2>
+            <p>Trop bon !</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wraper-home dream-team">
+  <h1 class="index-title text-center">La Team</h1>
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 text-center">
+          <div class="card-home">
+            <%= image_tag "margaux.jpg", class: "avatar-xl" %>
+            <h3 class= "card-home-title text-center">Margaux</h3>
+            <p class="card-home-description"><strong>Sport et Santé</strong><br><br> blablabla</p>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 text-center">
+          <div class="card-home">
+            <%= image_tag "juliette.jpg", class: "avatar-xl" %>
+            <h3 class= "card-home-title text-center">Juliette</h3>
+            <p class="card-home-description"><strong>Fraicheur et Peps</strong><br><br> blablabla</p>
+          </div>
+        </div>
+
+    </div>
+
+      <div class="text-center back-to-top">
+        <%= link_to "Back to top", "#top", class: "btn btn-primary back-button" %>
+      </div>
+  </div>
+</div>

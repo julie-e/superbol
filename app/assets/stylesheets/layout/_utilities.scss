@@ -23,3 +23,15 @@
 .bg-dark-blue {
   background: #3b5998;
 }
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: white;
+  :hover {
+    color: $pink;
+    text-decoration: none;
+  }
+}

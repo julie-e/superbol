@@ -1,0 +1,43 @@
+<div class="navbar-wagon">
+  <!-- Logo -->
+  <%= link_to root_path, class: "logo-name" do %>
+    <p>Superbol</p>
+  <% end %>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs">
+
+    <!-- Search form -->
+
+<ul class="list-inline navbar-wagon-item navbar-wagon-button btn"">
+  <li><%= link_to t(".top_call_to_action", default: "HOME"), "#" %></li>
+  <li></li>
+ <li></li>
+  <li><%= link_to t(".top_call_to_action", default: "WELCOME TO BONDI BEACH"), "#" %></li>
+  <li></li>
+ <li></li>
+  <li><%= link_to t(".top_call_to_action", default: "SUPERBOLS"), "#" %></li>
+  <li></li>
+ <li></li>
+  <li><%= link_to t(".top_call_to_action", default: "TOPPINGS"), "#" %></li>
+  <li></li>
+ <li></li>
+  <li><%= link_to t(".top_call_to_action", default: "CONTACT"), "#" %></li>
+</ul>
+  </div>
+
+  <!-- Dropdown list appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-sm hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu list-inline">
+        <li><%= link_to "HOME", "#" %></li>
+        <li><%= link_to "WELCOME TO BONDI BEACH", "#" %></li>
+        <li><%= link_to "NOS SUPERBOLS", "#" %></li>
+        <li><%= link_to "NOS TOPPINGS", "#" %></li>
+        <li><%= link_to "OU NOUS TROUVER ?", "#" %></li>
+        <li><%= link_to "CONTACT", "#" %></li>
+      </ul>
+    </div>
+  </div>
+</div>
