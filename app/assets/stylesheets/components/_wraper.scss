@@ -1,7 +1,6 @@
 .wraper-home {
   padding-top: 30px;
   padding-bottom: 50px;
-  background-color: #E9E9E9;
 }
 
 .wraper-home li {
@@ -14,10 +13,40 @@
 }
 
 .dream-team {
-  background-color:#D7D7D7;
+  background-color: white;
 }
 
 .country-wraper {
   background-color: #E7E7E7;
   padding-bottom: 20px;
+}
+
+.recettes {
+  height: 300px;
+  color: black;
+  h1 {
+    margin-top: 95px
+  }
+}
+
+.australie {
+  background: image-url("australie.jpg") no-repeat center;
+  opacity: 0.9;
+  color: white;
+  text-align: center;
+  height: 80vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.concept-description {
+  color: black;
+  font-size: 21px;
+}
+
+.superbols {
+
 }

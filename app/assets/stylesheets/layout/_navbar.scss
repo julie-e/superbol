@@ -3,7 +3,7 @@
   background: linear-gradient(-225deg, rgba(255,168,145,0.4) 0%, rgba(255,168,145,0.4) 50%);
   transition: all 0.3s ease;
   display: flex;
-  height: 200px;
+  height: 94px;
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
@@ -40,6 +40,7 @@
   padding: 0 20px;
   a {
     font-weight: bold;
+    font-size: 21px;
       &:hover {
       color: $pink;
       text-decoration: none;
