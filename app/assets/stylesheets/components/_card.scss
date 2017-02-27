@@ -35,7 +35,7 @@
 
 
 .card-1 {
-  height: 300px;
+  height: 600px;
   background-size: cover !important;
   color: white;
   position: relative;
@@ -48,7 +48,7 @@
 }
 
 .card-2 {
-  height: 300px;
+  height: 600px;
   background-size: cover !important;
   color: white;
   position: relative;
@@ -61,7 +61,7 @@
 }
 
 .card-3 {
-  height: 300px;
+  height: 600px;
   background-size: cover !important;
   color: white;
   position: relative;
@@ -76,4 +76,9 @@
 .card-bols {
   width: 100%;
   margin-top: 100px;
+}
+
+.container-cards {
+  margin-left: none;
+  margin-right: none;
 }
