@@ -1,11 +1,11 @@
 .index-title {
-  color: $darkgray;
+  color: black;
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
 .index-sous-title {
-  color: $blue;
+  color: black;
   margin-top: 60px;
   margin-left: 30px;
   padding-top: 40px;
@@ -22,11 +22,20 @@
 }
 
 .index-paragraphe {
-  color: $green;
+  color: black;
   font-size: 20px;
   margin: 40px;
 }
 
 .bols-title {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.paragraphe {
+  margin-top: -10px;
+  font-size: 21px;
+}
+
+.profil {
+  margin-bottom: 20px;
 }

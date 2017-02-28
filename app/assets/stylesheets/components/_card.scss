@@ -35,50 +35,57 @@
 
 
 .card-1 {
-  height: 600px;
+  height: 500px;
   background-size: cover !important;
   color: white;
   position: relative;
   margin: 20px;
   transition: all .2s ease;
-  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), image-url("Colombia.png") no-repeat center;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), image-url("choco.jpg") no-repeat center;
   &:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
   }
 }
 
 .card-2 {
-  height: 600px;
+  height: 500px;
   background-size: cover !important;
   color: white;
   position: relative;
   margin: 20px;
   transition: all .2s ease;
-  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), image-url("Colombia.png") no-repeat center;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), image-url("framboises.jpg") no-repeat center;
   &:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
   }
 }
 
 .card-3 {
-  height: 600px;
+  height: 500px;
   background-size: cover !important;
   color: white;
   position: relative;
   margin: 20px;
   transition: all .2s ease;
-  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), image-url("Colombia.png") no-repeat center;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), image-url("cookies-dough.png") no-repeat center;
   &:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
   }
 }
 
 .card-bols {
   width: 100%;
-  margin-top: 100px;
 }
 
 .container-cards {
   margin-left: none;
   margin-right: none;
+}
+
+.card-home-title {
+  margin-top: 100px;
+  color: white;
+  font-size: 72px;
+  font-weight: bold;
+  font-family: 'Satisfy', cursive;
 }
