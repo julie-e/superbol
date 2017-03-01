@@ -31,13 +31,9 @@
   position: absolute;
   bottom: 3px;
   width: 100%;
-  left: 0px;
-  right: 0px;
   font-size: 45px;
   transition: all 1s;
-  overflow-x: hidden;
   &:hover {
-    transform:scale(2, 0.5);
-    overflow-x: hidden
+    transform:scale(2, 1);
   }
 }
